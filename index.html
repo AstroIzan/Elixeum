@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Elixeum</title>
+	<script src="https://kit.fontawesome.com/b55cd54a84.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+<!-- HEADER -->	
+	<div id="header">
+	<!-- Div on esta situada la foto del fons -->
+		<div class="fondo">
+		<!-- Div on esta situat la imatge on al mateix temps esta situat el nom de l'empresa i el menu -->
+			<div class="title">
+					<h1>ELIXEUM</h1>											<!-- Nom de l'empresa -->
+			<!-- Menu dins d'un div per tenir posició relativa -->
+				<div class="menucata">
+					<ul>
+						<li><a href="#personal" class="menu">QUI SOM?</a></li>	<!-- Botó per anar a la secció Qui Som? -->
+						<li><a href="#slider" class="menu">SERVEIS</a></li>		<!-- Botó per anar a la secció SERVEIS -->
+						<li><a href="#projects" class="menu">OFERTES</a></li>	<!-- Botó per anar a la secció OFERTES -->
+						<li><a href="#contacte" class="menu">CONTACTE</a></li> 	<!-- Botó per anar a la secció CONTACTE -->
+					<!-- Zona del menu desplegable de l'idioma -->	
+						<div class="desplegable"> 								<!-- Div on estan situat el desplegable -->	
+							<button class="desplebtn">IDIOMA</button> 			<!-- Botó per desplegar l'idioma -->
+						  	<div class="desple-content">						<!-- Div que es desplega on estan situats els botons -->
+								<a href="#header">CATALÀ</a>					<!-- Botó per anar a la pagina en Català -->
+								<a href="castelixeum.html">ESPAÑOL</a>			<!-- Botó per anar a la pagina en Castellà -->
+								<a href="angloelixeum.html">ENGLISH</a>			<!-- Botó per anar a la pagina en Anglès -->
+						  	</div>
+						</div>
+					</ul>
+				</div>
+				<div id="personal">
+					<h2>Qui Som?</h2>
+						<p>Elixeum som una empresa de tecnologia i manteniment informàtic. Dotat d'alts coneixements en software i hardware informàtic. Amb l'ajuda de professionals del sector, tècnics en vendes, planificadors de projectes i arquitectes som capaços de dissenyar una de les infraestructures més segures del país.</p>
+				</div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+<!-- SERVICIOS -->
+	<div id="slider">
+		<ul>
+			<li>
+  				<img src="src/stock/catala/serv1.jpg" alt="">
+			</li>
+			<li>
+  				<img src="src/stock/catala/serv2.jpg" alt="">
+			</li>
+			<li>
+  				<img src="src/stock/catala/serv3.jpg" alt="">
+			</li>
+			<li>
+ 				<img src="src/stock/catala/serv4.jpg" alt="">
+			</li>
+			<li>
+ 				<img src="src/stock/catala/serv5.jpg" alt="">
+			</li>
+		</ul>
+	</div>
+<!-- OFERTES --> 
+	<div id="projects">
+	<!-- Div on estan situats els blocs -->
+		<div class="cubs">
+		<!-- Div que formen els blocs i tenen la informació [Hi han 5 blocs més amb la mateixa estructura] -->
+			<div class="proj izq">
+			<!-- Icona del bloc -->
+				<i class="fas fa-laptop"></i>
+			<!-- Titol del bloc -->
+				<h6>Manteniment</h6>
+			<!-- Text del bloc -->
+				<p>Servei de reparació i manteniment de dispositius mòbils, portàtils, ordinadors, etc. Tant a domicili com portant-los al taller.</p>
+			</div>
+			<div class="proj cen">
+				<i class="fas fa-laptop-code"></i>
+				<h6>Disseny d'aplicacions</h6>
+				<p>Creació i disseny d'aplicacions i pàgines web en diferents llenguatges de programació i maquetació.</p>
+			</div>
+			<div class="proj der">
+				<i class="fas fa-wifi"></i>
+				<h6>Instalacions</h6>
+				<p>Instal·lacions de material informàtic i tota la infraestructura que l'envolta./</p>
+			</div>
+			<div class="proj izq">
+				<i class="fas fa-server"></i>
+				<h6>Servidors i Racks</h6>
+				<p>Instal·lació i manteniment de racks i servidors locals.</p>
+			</div>
+			<div class="proj cen">
+				<i class="fas fa-file-invoice-dollar"></i>
+				<h6>Pressupostos</h6>
+				<p>Creació de pressupostos i plànols amb les recomanacions professionals dels nostres tècnics i dissenyadors.</p>
+			</div>
+			<div class="proj der">
+				<i class="fas fa-broadcast-tower"></i>
+				<h6>Ajuda telematica</h6>
+				<p>Manteniment de forma telemàtica amb l'ajuda d'aplicacions compatibles amb diversos dispositius.</p>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	
+<!-- CONTACTE -->
+	<div id="contacte">
+	<!-- Div donde esta posicionada el iframe -->
+		<div class="izquierda">
+		<!-- Iframe que contiene la direccion -->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5972.200549021909!2d2.104050594377125!3d41.54542605457289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xee20dc5c55293261!2sColegio%20Jaume%20Viladoms!5e0!3m2!1ses!2ses!4v1621257221780!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+	<!-- Div donde esta el formulario de contacto -->
+		<div class="derecha">
+		<!-- Div del formulario -->
+			<div class="form">
+			<!-- Formulario -->
+				<form>
+					<input type="text" id="fname" name="fname" placeholder="Nom" class="name">						
+					<input type="text" id="fname" name="fname" placeholder="Cognom" class="lastname">
+					<input type="text" id="fname" name="fname" placeholder="Tlf" class="telf">
+					<input type="text" id="fname" name="fname" placeholder="Correu" class="correo">
+					<input type="text" id="fname" name="fname" placeholder="Explica el teu dubte..." class="infos">
+					<input type="submit" value="Contactar..." class="btn"> 
+				</form>
+			</div>
+			<div class="info">
+				<h5>elixeum.info@gmail.com <span>||</span> +34 897 456 489</h5>	
+			</div>
+		</div>
+	</div>
+</body>
+</html> 
